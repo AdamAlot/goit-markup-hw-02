@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
-
+:root {
+  --brand-color: #2196f3;
+}
 body {
   font-family: "Roboto", sans-serif;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--brand-color);
+}
+.link:active {
+  color: var(--brand-color);
+}
+.link:focus {
+  color: var(--brand-color);
 }

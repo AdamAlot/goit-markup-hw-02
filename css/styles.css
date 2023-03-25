@@ -4,16 +4,60 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  color: #212121;
 }
+/*LOGO*/
+.logo-link {
+  text-decoration: none;
+  color: var(--brand-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo {
+  color: #212121;
+}
+/* LINK   */
 .link {
   text-decoration: none;
 }
 .link:hover {
   color: var(--brand-color);
+  cursor: pointer;
 }
 .link:active {
   color: var(--brand-color);
 }
 .link:focus {
   color: var(--brand-color);
+  cursor: pointer;
+}
+
+/*BUTTONS */
+.button {
+  background-color: #f5f4fa;
+  text-decoration-color: #212121;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.button:hover {
+  background-color: var(--brand-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: var(--brand-color);
+  color: #ffffff;
+}
+.button:focus {
+  background-color: var(--brand-color);
+  color: #ffffff;
+  cursor: pointer;
 }

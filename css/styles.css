@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 :root {
   --brand-color: #2196f3;
+  --text-color: #212121;
+  --text-second-color: #ffffff;
+  --text-contacts-color: #757575;
+  --backgroung-color: #2f303a;
+  --background-button-color: #f5f4fa;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--text-color);
 }
 /*LOGO*/
 .logo-link {
@@ -17,13 +22,12 @@ body {
   line-height: 31px;
 }
 .logo {
-  color: #212121;
+  color: var(--text-color);
 }
 /* LINK   */
 .link {
   text-decoration: none;
-  color: #212121;
-  font-family: "Roboto";
+  color: var(--text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -42,14 +46,13 @@ body {
   cursor: pointer;
 }
 .link-contact {
-  color: #757575;
+  color: var(--text-contacts-color);
 }
 
 /*BUTTONS */
 .button {
-  background-color: #f5f4fa;
-  text-decoration-color: #212121;
-  font-family: Roboto;
+  background-color: var(--background-button-color);
+  text-decoration-color: var(--text-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
@@ -58,16 +61,40 @@ body {
 }
 .button:hover {
   background-color: var(--brand-color);
-  color: #ffffff;
+  color: var(--text-second-color);
   cursor: pointer;
 }
 
 .button:active {
   background-color: var(--brand-color);
-  color: #ffffff;
+  color: var(--text-second-color);
 }
+
 .button:focus {
   background-color: var(--brand-color);
-  color: #ffffff;
+  color: var(--text-second-color);
   cursor: pointer;
+}
+.button-blue {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-second-color);
+  background-color: var(--brand-color);
+}
+/* MAIN PART */
+.section-header {
+  background-color: var(--backgroung-color);
+}
+.main-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--text-second-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }

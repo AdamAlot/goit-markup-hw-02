@@ -91,7 +91,7 @@ body {
 .main-header {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 2.64;
   color: var(--text-second-color);
   text-align: center;
   letter-spacing: 0.06em;
@@ -101,24 +101,38 @@ body {
 .article-header {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.15;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-color);
 }
-.article-paragraph{
+.article-paragraph {
   color: var(--text-contacts-color);
-  Font size: 14px;
-  L  Line height: 1.46;
-  Align: Left;
-  Vertical align: Top;
-  Letter spacing: 3%;
-  
-  }
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: Left;
+  letter-spacing: 3%;
+}
 .secondary-header {
   font-weight: 700;
-font-size: 36px;
-line-height: 1,17;
-text-align: center;
-letter-spacing: 0.03em;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-team {
+  background-color: var(--background-button-color);
+}
+.team-photo {
+  background-color: var(--text-second-color);
+}
+.section-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.section-team-descript {
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--text-contacts-color);
 }

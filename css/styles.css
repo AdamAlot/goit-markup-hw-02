@@ -53,6 +53,10 @@ body {
 }
 
 .link-contact {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--text-contacts-color);
 }
 
@@ -171,4 +175,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.list {
+  list-style-type: none;
 }

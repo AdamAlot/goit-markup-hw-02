@@ -7,10 +7,12 @@
   --backgroung-color: #2f303a;
   --background-button-color: #f5f4fa;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
 }
+
 /*LOGO*/
 .logo-link {
   text-decoration: none;
@@ -20,9 +22,15 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
+
 .logo {
   color: var(--text-color);
 }
+
+.logo-footer {
+  color: var(--text-second-color);
+}
+
 /* LINK   */
 .link {
   text-decoration: none;
@@ -33,17 +41,21 @@ body {
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
+
 .link:hover {
   color: var(--brand-color);
   cursor: pointer;
 }
+
 .link:active {
   color: var(--brand-color);
 }
+
 .link:focus {
   color: var(--brand-color);
   cursor: pointer;
 }
+
 .link-contact {
   color: var(--text-contacts-color);
 }
@@ -58,6 +70,7 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
 }
+
 .button:hover {
   background-color: var(--brand-color);
   color: var(--text-second-color);
@@ -74,6 +87,7 @@ body {
   color: var(--text-second-color);
   cursor: pointer;
 }
+
 .button-blue {
   font-weight: 700;
   font-size: 16px;
@@ -84,10 +98,12 @@ body {
   color: var(--text-second-color);
   background-color: var(--brand-color);
 }
+
 /* HEADER */
 .section-header {
   background-color: var(--backgroung-color);
 }
+
 .main-header {
   font-weight: 900;
   font-size: 44px;
@@ -97,7 +113,15 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-/*SECTION ARTICLES*/
+
+.secondary-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .article-header {
   font-weight: 700;
   font-size: 14px;
@@ -106,6 +130,9 @@ body {
   text-transform: uppercase;
   color: var(--text-color);
 }
+
+/*SECTION ARTICLES*/
+
 .article-paragraph {
   color: var(--text-contacts-color);
   font-size: 14px;
@@ -113,26 +140,36 @@ body {
   text-align: Left;
   letter-spacing: 3%;
 }
-.secondary-header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
+
+/*SECTION TEAME */
+
 .section-team {
   background-color: var(--background-button-color);
 }
-.team-photo {
+
+.section-team-photo {
   background-color: var(--text-second-color);
 }
+
 .section-team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
+
 .section-team-descript {
   font-size: 16px;
   line-height: 1.18;
   color: var(--text-contacts-color);
+}
+
+/*FOOTER */
+.footer {
+  background-color: var(--backgroung-color);
+}
+.adress {
+  color: var(--text-second-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }

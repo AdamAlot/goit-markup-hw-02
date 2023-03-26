@@ -16,10 +16,9 @@ body {
   text-decoration: none;
   color: var(--brand-color);
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 .logo {
   color: var(--text-color);
@@ -31,7 +30,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.02em;
 }
 .link:hover {
@@ -55,7 +54,7 @@ body {
   text-decoration-color: var(--text-color);
   font-size: 16px;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 1.39;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -78,14 +77,14 @@ body {
 .button-blue {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1, 6;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--text-second-color);
   background-color: var(--brand-color);
 }
-/* MAIN PART */
+/* HEADER */
 .section-header {
   background-color: var(--backgroung-color);
 }
@@ -97,4 +96,29 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+/*SECTION ARTICLES*/
+.article-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+.article-paragraph{
+  color: var(--text-contacts-color);
+  Font size: 14px;
+  L  Line height: 1.46;
+  Align: Left;
+  Vertical align: Top;
+  Letter spacing: 3%;
+  
+  }
+.secondary-header {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1,17;
+text-align: center;
+letter-spacing: 0.03em;
 }

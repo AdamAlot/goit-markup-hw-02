@@ -44,7 +44,6 @@ body {
 
 .link:hover {
   color: var(--brand-color);
-  cursor: pointer;
 }
 
 .link:active {
@@ -53,7 +52,6 @@ body {
 
 .link:focus {
   color: var(--brand-color);
-  cursor: pointer;
 }
 
 .link-contact {

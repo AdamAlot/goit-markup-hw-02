@@ -55,6 +55,14 @@ body {
 .link-contact {
   text-decoration: none;
   font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--text-contacts-color);
+}
+
+.link-contact-footer {
+  text-decoration: none;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-contacts-color);
@@ -97,6 +105,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--text-second-color);
   background-color: var(--brand-color);
+  cursor: pointer;
 }
 
 /* HEADER */
@@ -107,7 +116,7 @@ body {
 .main-header {
   font-weight: 900;
   font-size: 44px;
-  line-height: 2.64;
+  line-height: 1.36;
   color: var(--text-second-color);
   text-align: center;
   letter-spacing: 0.06em;
@@ -141,7 +150,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/*SECTION TEAME */
+/*SECTION TEAM */
 
 .section-team {
   background-color: var(--background-button-color);
@@ -165,6 +174,22 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* RESULTS */
+
+.results-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+}
+
+.results-descript {
+  font-size: 16px;
+  line-height: 1.87x;
+  letter-spacing: 0.03em;
+  color: var(--text-contacts-color);
+}
 /*FOOTER */
 .footer {
   background-color: var(--backgroung-color);
